@@ -1,0 +1,15 @@
+{
+  "name": "teacherzjl.github.io",
+  "version": "2.0.0",
+  "main": "index.js1",
+  "repository": "https://github.com/teacherzjl/teacherzjl.github.io.git",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^1.0.0-beta.5"
+  },
+  "scripts": {
+    "deploy": "sh deploy.sh",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  }
+}
