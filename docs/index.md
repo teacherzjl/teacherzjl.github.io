@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 翻译
-      link: /markdown-examples
+      link: /Translate/1.【译】Fetch Priority 和优化LCP
     - theme: alt
       text: 原创
-      link: /api-examples
+      link: /Original/1.给我五分钟！让你掌握React的Redux中间件原理
 
 features:
   - title: Feature A
