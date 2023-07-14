@@ -36,11 +36,11 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "翻译",
+        text: "我的翻译",
         items: fillSidebar(translateLinks, "Translate"),
       },
       {
-        text: "原创",
+        text: "我的原创",
         items: fillSidebar(originalLinks, "Original"),
       },
     ],
