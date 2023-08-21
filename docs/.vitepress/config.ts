@@ -9,6 +9,7 @@ const translateLinks = [
   "1.【译】Fetch Priority 和优化LCP",
   "2.【译】Well-known Symbols",
   "3.【译】一文读懂React中的RSC是什么？",
+  "4.【译】探索2023年的React学习之路：库与框架的选择",
 ];
 
 function fillSidebar(links: string[], type: string) {
