@@ -3,6 +3,7 @@ import { defineConfig } from "vitepress";
 const originalLinks = [
   "1.给我五分钟！让你掌握React的Redux中间件原理",
   "2.🔥Vue暗藏秘招揭示： v-for指令颠覆对象属性渲染顺序的传统观念！",
+  "3.Web Worker",
 ];
 
 const translateLinks = [
@@ -16,7 +17,7 @@ function fillSidebar(links: string[], type: string) {
   return links.reverse().map((link) => {
     return {
       text: link,
-      link: `/${type}/${link}`,
+      link: `/${type}/${encodeURIComponent(link)}`,
     };
   });
 }
